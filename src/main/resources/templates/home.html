@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  lang="en"
+  xmlns:th="http://www.thymeleaf.org" 
+  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+  layout:decorate="~{/fragments/layout.html}">
+<body>
+	<section layout:fragment="content">
+		<p th:text="#{view.greeting}">placeholder message</p>
+		<h1>Welcome to spring with layout2...</h1>
+		<!--<img th:src="@{/images/apple.jpeg}"/>-->
+	</section>
+</body>
+</html>
